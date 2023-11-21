@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-21T13:14:58 IST" name="SDET Assignment" finished-at="2023-11-21T13:15:07 IST" duration-ms="8475">
+    <groups>
+    </groups>
+    <test started-at="2023-11-21T13:14:58 IST" name="Dynamic Table" finished-at="2023-11-21T13:15:07 IST" duration-ms="8475">
+      <class name="Main">
+        <test-method is-config="true" signature="init()[pri:0, instance:Main@56de5251]" started-at="2023-11-21T13:14:58 IST" name="init" finished-at="2023-11-21T13:15:04 IST" duration-ms="6239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="clickTableDataButton()[pri:0, instance:Main@56de5251]" started-at="2023-11-21T13:15:05 IST" name="clickTableDataButton" finished-at="2023-11-21T13:15:05 IST" duration-ms="530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickTableDataButton -->
+        <test-method signature="populateWithJson()[pri:0, instance:Main@56de5251]" started-at="2023-11-21T13:15:05 IST" name="populateWithJson" finished-at="2023-11-21T13:15:06 IST" depends-on-methods="Main.clickTableDataButton" duration-ms="676" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- populateWithJson -->
+        <test-method signature="tableAssertions()[pri:0, instance:Main@56de5251]" started-at="2023-11-21T13:15:06 IST" name="tableAssertions" finished-at="2023-11-21T13:15:07 IST" depends-on-methods="Main.populateWithJson" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tableAssertions -->
+      </class> <!-- Main -->
+    </test> <!-- Dynamic Table -->
+  </suite> <!-- SDET Assignment -->
+</testng-results>
